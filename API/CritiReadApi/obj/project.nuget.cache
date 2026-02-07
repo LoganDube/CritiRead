@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JJISU7Noeik=",
+  "dgSpecHash": "5KFBCc6ocNE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\Api\\CritiReadApi\\CritiReadApi.csproj",
+  "projectFilePath": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Logan\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Logan\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

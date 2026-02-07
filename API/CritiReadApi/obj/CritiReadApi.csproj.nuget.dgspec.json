@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\Api\\CritiReadApi\\CritiReadApi.csproj": {}
+    "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\Api\\CritiReadApi\\CritiReadApi.csproj": {
+    "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\Api\\CritiReadApi\\CritiReadApi.csproj",
+        "projectUniqueName": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj",
         "projectName": "CritiReadApi",
-        "projectPath": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\Api\\CritiReadApi\\CritiReadApi.csproj",
+        "projectPath": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj",
         "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\Api\\CritiReadApi\\obj\\",
+        "outputPath": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Logan\\AppData\\Roaming\\NuGet\\NuGet.Config"

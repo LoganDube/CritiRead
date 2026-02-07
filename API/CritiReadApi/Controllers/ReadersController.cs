@@ -19,46 +19,46 @@ namespace CritiReadApi.Controllers
             this.dbContext = dbContext;
         }
 
-        //     // writing endpoint of the database
-        //     [HttpGet]
-        //     public IActionResult GetAllReaders() // getting all the Readers - interface method
-        //     {
-        //         var Readers = dbContext.Readers.ToList(); // gettin the list of Readers and making them a list
+        // writing endpoint of the database
+        [HttpGet]
+        public IActionResult GetAllReaders() // getting all the Readers - interface method
+        {
+            var Readers = dbContext.Readers.ToList(); // gettin the list of Readers and making them a list
 
-        //         return Ok(Readers); // okay response (200) and returns the Readers
-        //     }
+            return Ok(Readers); // okay response (200) and returns the Readers
+        }
 
-        //     [HttpPost]
-        //     public IActionResult AddContact(AddReaderRequestDTO request)
-        //     {
-        //         // mapping request from DTO to the domain model of type contact
-        //         var domainModelContact = new Reader
-        //         {
-        //             ReaderID = Guid.NewGuid(), // creates a new unique ID automatically - built in func
-        //             Name = request.Name,
-        //             Email = request.Email,
+        [HttpPost]
+        public IActionResult AddContact(AddReaderRequestDTO request)
+        {
+            // mapping request from DTO to the domain model of type contact
+            var domainModelContact = new Reader
+            {
+                ReaderID = Guid.NewGuid(), // creates a new unique ID automatically - built in func
+                Name = request.Name,
+                Email = request.Email,
 
-        //         };
+            };
 
-        //         dbContext.Readers.Add(domainModelContact);// adding the new Contact to the Readers colection found in DbContext
-        //         dbContext.SaveChanges(); // saving is required as it pushes the contact after it has been added - think of commit and push in Git
+            dbContext.Readers.Add(domainModelContact);// adding the new Contact to the Readers colection found in DbContext
+            dbContext.SaveChanges(); // saving is required as it pushes the contact after it has been added - think of commit and push in Git
 
-        //         return Ok(domainModelContact);
-        //     }
+            return Ok(domainModelContact);
+        }
 
-        //     [HttpDelete]
-        //     [Route("{id:Guid}")] // getting the id (type Guid) identifier from the route 
-        //     public IActionResult DeleteContact(Guid id)
-        //     {
-        //         var contact = dbContext.Readers.Find(id); // finding to see if the contact exists
+        [HttpDelete]
+        [Route("{id:Guid}")] // getting the id (type Guid) identifier from the route 
+        public IActionResult DeleteContact(Guid id)
+        {
+            var contact = dbContext.Readers.Find(id); // finding to see if the contact exists
 
-        //         if (contact != null)
-        //         {
-        //             dbContext.Readers.Remove(contact);
-        //             dbContext.SaveChanges();
-        //         }
+            if (contact != null)
+            {
+                dbContext.Readers.Remove(contact);
+                dbContext.SaveChanges();
+            }
 
-        //         return Ok();
-        //     }
+            return Ok();
+        }
     }
 }

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CritiReadApi.Migrations
 {
     [DbContext(typeof(CritiReadDbContext))]
-    [Migration("20260207111027_InitialCreate")]
+    [Migration("20260207113521_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
