@@ -10,7 +10,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // injecting the DbContext class - means we can use it inside controller and different classes 
-builder.Services.AddDbContext<CritiReadDbContext>(options => options.UseInMemoryDatabase("ReadersDb")); // passes parameters of options s.t it creates a database named ContactsDb
+builder.Services.AddDbContext<CritiReadDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+}); // passes parameters of options s.t it creates a database named ContactsDb
 
 var app = builder.Build();
 

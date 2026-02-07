@@ -6,12 +6,13 @@ namespace CritiReadApi.Data;
 
 public class CritiReadDbContext : DbContext
 {
+    // each property represents a table, creating a new property of DbContext class creates a new table
+    public DbSet<Reader> Readers { get; set; }
 
-    public CritiReadDbContext(DbContextOptions options) : base(options)
+    public CritiReadDbContext(DbContextOptions<CritiReadDbContext> options) : base(options)
     {
 
     }
 
-    // each property represents a table, creating a new property of DbContext class creates a new table
-    public DbSet<Reader> Readers { get; set; }
+
 }
