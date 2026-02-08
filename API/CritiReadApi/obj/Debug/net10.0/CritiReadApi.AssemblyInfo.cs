@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CritiReadApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41c7b07c24be8a8258553e5a3261b7eb074a785d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df266cabb3588fe70ce3a520160ec230297e157d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CritiReadApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CritiReadApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

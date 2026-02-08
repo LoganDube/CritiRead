@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj": {}
+    "C:\\Users\\logan\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj": {
+    "C:\\Users\\logan\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj",
+        "projectUniqueName": "C:\\Users\\logan\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj",
         "projectName": "CritiReadApi",
-        "projectPath": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj",
-        "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logan\\OneDrive - The University Of Newcastle\\Software\\CS TS\\CritiRead\\CritiRead\\API\\CritiReadApi\\obj\\",
+        "projectPath": "C:\\Users\\logan\\CritiRead\\CritiRead\\API\\CritiReadApi\\CritiReadApi.csproj",
+        "packagesPath": "C:\\Users\\logan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\logan\\CritiRead\\CritiRead\\API\\CritiReadApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Logan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\logan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
